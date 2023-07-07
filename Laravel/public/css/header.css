@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+#bd {
+    margin: 0;
+    font-family: 'Righteous', sans-serif;
+}
+
+.supbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Reducir el padding para hacerlo más pequeño */
+    opacity: 0.9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+.bar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}        #bd {
+    margin: 0;
+}
+
+.supbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px; /* Reducir el padding para hacerlo más pequeño */
+    opacity: 0.9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+.bar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar li {
+    margin: 0 12px;
+    padding: 0 12px;
+    height: 90px; /* Reducir la altura para hacerlo más pequeño */
+    display: flex;
+    align-items: center;
+    border-bottom: solid black;
+}
+
+.supbar:hover {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px; /* Reducir el padding para hacerlo más pequeño */
+    opacity: 1.9; /* Aumentar la opacidad para resaltar */
+}
+
+.items-bar a {
+    text-decoration: none;
+    color: gray;
+}
+
+.bar li:hover {
+    border-bottom: solid red;
+}
+
+.items-bar a:hover {
+    color: white;
+}
+
+
+@media (max-width: 767px) {
+    .logo img {
+        width: 30px; /* Ajusta el tamaño del logo en dispositivos móviles */
+    }
+
+    .supbar {
+        padding: 5px 10px; /* Reducir el padding para hacerlo más pequeño en dispositivos móviles */
+    }
+
+    .bar li {
+        height: 20px; /* Reducir la altura para hacerlo más pequeño en dispositivos móviles */
+    }
+}
+
+.bar li {
+    margin: 0 12px;
+    padding: 0 12px;
+    height: 90px; /* Reducir la altura para hacerlo más pequeño */
+    display: flex;
+    align-items: center;
+    border-bottom: solid black;
+}
+
+.supbar:hover {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px; /* Reducir el padding para hacerlo más pequeño */
+    opacity: 1.9; /* Aumentar la opacidad para resaltar */
+}
+
+.items-bar a {
+    text-decoration: none;
+    color: gray;
+}
+
+.items-bar span {
+    text-decoration: none;
+    color: gray;
+}
+
+.bar li:hover {
+    border-bottom: solid red;
+}
+
+.items-bar a:hover {
+    color: white;
+}
+
+.items-bar span:hover {
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        width: 30px; /* Ajusta el tamaño del logo en dispositivos móviles */
+    }
+
+    .supbar {
+        padding: 5px 10px; /* Reducir el padding para hacerlo más pequeño en dispositivos móviles */
+    }
+
+    .bar li {
+        height: 50px; /* Reducir la altura para hacerlo más pequeño en dispositivos móviles */
+    }
+}

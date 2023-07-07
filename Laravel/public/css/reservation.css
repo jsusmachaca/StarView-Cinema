@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.bdy {
+    background-color: #333;
+    color: #FFD700;
+}
+
+.ticket-box {
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px orange;
+}
+
+.ticket-box h3,
+.ticket-box h4 {
+    color: #fff;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.custom-heading {
+    margin-left: 20px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-container h1 {
+    margin-left: 70px;
+}
+
+.title-container h2 {
+    margin-right: 70px;
+}
+
+hr {
+    background-color: #fff;
+}

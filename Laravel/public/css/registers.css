@@ -1,0 +1,57 @@
+body{
+     background: #333;
+}
+
+input {
+     margin-bottom: 10px;
+     background: grey;
+     margin-right: 1px;
+     padding-right: 250px;   
+}
+
+.crud {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 50vh;
+     margin: 0 780px;
+}
+
+.form-control.bt {
+     margin-left: 80px;
+     display: inline-block;
+     width: auto;
+     padding: 8px 16px;
+     font-size: 14px;
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+     background-color: #2E2E2E;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     align-items: center;
+     align-items: center;
+}
+   
+.form-control.bt:last-child {
+     margin-right: 0;
+}
+   
+option{
+     background: #2E2E2E;
+}
+
+table{
+     font-size: 17px;
+}
+
+select{
+     color: white;
+     padding: 10px;
+     font-size: 20px;
+     background: #2E2E2E;
+     
+}
+
+

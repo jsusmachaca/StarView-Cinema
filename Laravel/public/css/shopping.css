@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+
+
+.bdy {
+    background-color: #333;
+
+}
+
+.container {
+    margin-top: 30px;
+    max-width: 800px;
+    background-color: #222;
+    padding: 20px;
+    border: solid 1px orange;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.product-info {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(455, 455, 455, 0.1);
+    background-color: #222;
+    font-family: 'Righteous', sans-serif;
+    align-items: center;
+    align-content: center;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-top: 0;
+    color: #fff;
+}
+
+.product-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.quantity-label {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.quantity-input {
+    width: 150px;
+    max-width: 100%;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    color: #666;
+}
+
+.hidden-input {
+    display: none;
+}
+
+.pay {
+    margin-top: 40px;
+}
+
+.paypal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .container {
+        margin-top: 10px;
+    }
+
+    .product-img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .product-info {
+        padding: 10px;
+    }
+    
+
+    .product-title {
+        font-size: 20px;
+        
+    }
+
+    .product-price {
+        font-size: 16px;
+    }
+
+    .quantity-input {
+        width: 100px;
+    }
+
+    .quantity-label {
+        font-size: 16px;
+    }
+}

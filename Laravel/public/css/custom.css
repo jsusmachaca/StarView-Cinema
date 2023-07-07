@@ -1,0 +1,32 @@
+.bdy {
+     margin: 0 0;
+     padding: 0 0 ;
+     color: #fff;
+     background: #333;
+}
+
+* {  
+     margin: 0 0;
+     padding: 0 0;
+     color: #fff;
+}
+
+.container {
+     margin: 90px 0;
+     
+}
+
+.card {
+     border: solid 1px orange !important;
+     background-color: #222 !important;
+}
+
+.card-header {
+     border: solid 1px orange !important;
+}
+
+.form-control {
+     color: black !important; 
+     background-color: #fff !important;
+}
+   
