@@ -3,7 +3,12 @@
 ![preview](images/image.png)
 
 ### Project by:
-
+* Machaca Hancco Jesus
+* Moreno Villegas Royer
+* Aguilar Vilca Carlos
+* Beltran Torres Briguith
+* Manzano Añamuro Jorge
+  
 ## Description.
 This project is an online platform where users can buy their tickets to see the most anticipated movie, A platform of combines two web frameworks (Laravel & Flask) to perform interesting things like building REST API.
 
