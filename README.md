@@ -43,7 +43,7 @@ This project is an online platform where users can buy their tickets to see the 
 **clone the repository.**
 
 ```bash
-git clone https://JsasMachaca/sadad.git
+git clone https://JsasMachaca/sadad.git](https://github.com/JsasMachaca/StarView-Cinema.git
 cd StarView\ Cinema
 ```
 
