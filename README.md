@@ -14,10 +14,10 @@ This project is an online platform where users can buy their tickets to see the 
 
 # Main technologies : 
 
-## [LARAVEL.](https://laravel.com/)
+## [LARAVEL](https://laravel.com/) :pushpin:
 **Laravel** was used to build the whole page, thanks to the **MVC** (Model View Controller) pattern, we managed to create **CRUD** operations, view and controllers to build a usable dynamic web page.
 
-## [FLASK.](https://flask.palletsprojects.com/en/2.3.x/)
+## [FLASK](https://flask.palletsprojects.com/en/2.3.x/) :pushpin:
 **Flask** was used to build a **REST API** architecture hand in hand with Laravel. This with the objetive of handling transaccions and storing them in a nosql database, to later generate tickets that will be send to the user's email.
 
 
@@ -52,7 +52,7 @@ cd StarView\ Cinema
 ```bash
 cd Laravel
 ```
-## Activate DATABASES (Linux).
+### Activate DATABASES (Linux).
 
 **Activate MySql.**
 ```bash
@@ -64,7 +64,7 @@ systemctl start mariadb
 systemctl mongodb
 ```
 
-## Migrate and install dependencies.
+### Migrate and install dependencies.
 ***Before migrating the database, create the database beforehand with the following tables to prevent issues.***
 
 first `mariadb -u your_user -p`
