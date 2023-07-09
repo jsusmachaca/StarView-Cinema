@@ -37,10 +37,10 @@ This project is an online platform where users can buy their tickets to see the 
 ---
 
 # Instalation :page_with_curl: .
-## Note:
+## Note :warning: :
 ### The entire project was developed on Linux, so many of the commands will only work on Linux.
 
-**clone the repository.**
+**First clone the repository.**
 
 ```bash
 git clone https://github.com/JsasMachaca/StarView-Cinema.git
@@ -57,10 +57,6 @@ cd Laravel
 **Activate MySql.**
 ```bash
 systemctl start mariadb
-```
-**or**
-```bash
-systemctl start mysql
 ```
 
 **Activate MongoDB.**
