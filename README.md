@@ -52,8 +52,54 @@ cd StarView\ Cinema
 ```bash
 cd Laravel
 ```
+# Activate DATABASES (Linux).
 
-**Migrate and install dependencies.**
+**Activate MySql.**
+```bash
+systemctl start mariadb
+```
+**or**
+```bash
+systemctl start mysql
+```
+
+**Activate MongoDB.**
+```bash
+systemctl mongodb
+```
+
+# Migrate and install dependencies.
+***Before migrating the database, create the database beforehand with the following tables to prevent issues.***
+
+first `mariadb -u your_user -p`
+
+```mariadb
+CREATE DATABASE CINEMA;
+USE CINEMA;
+
+CREATE TABLE EMPLEADOS (
+	nombres VARCHAR(30),
+	apelllidos VARCHAR(30),
+	id_emp int(5) PRIMARY KEY,
+	dni INT(8),
+	sueldo DECIMAL(5,2),
+	horas_trabajo INT(4),
+	telefono INT(9)
+);
+
+CREATE TABLE MOVIES (
+	titulo VARCHAR(100),
+	info VARCHAR(500),
+	duracion VARCHAR(8),
+	precio DECIMAL(5,2),
+	banner MEDIUMBLOB,
+	taquilla VARCHAR(5),
+	id INT(11) PRIMARY KEY
+);
+```
+
+***Migrate databases and install depencencies.***
+
 ```bash
 php artisan migrate
 npm install
@@ -81,22 +127,6 @@ venv/Scripts/activate
 **Install all dependencies.**
 ```bash
 pip -r requirements.txt
-```
-
-# Activate DATABASES (Linux).
-
-**Activate MySql.**
-```bash
-systemctl start mariadb
-```
-**or**
-```bash
-systemctl start mysql
-```
-
-**Activate MongoDB.**
-```bash
-systemctl mongodb
 ```
 # Activate all serves.
 
