@@ -47,7 +47,7 @@ git clone https://github.com/JsasMachaca/StarView-Cinema.git
 cd StarView\ Cinema
 ```
 
-# Laravel Dependencies:
+# Laravel Dependencies :heavy_check_mark: :
 **To access directory**
 ```bash
 cd Laravel
@@ -105,7 +105,7 @@ php artisan migrate
 npm install
 ```
 
-# Flask Dependencies:
+# Flask Dependencies :heavy_check_mark: :
 **To access directory.**
 ```bash
 cd Flask
