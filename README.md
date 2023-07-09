@@ -36,7 +36,7 @@ This project is an online platform where users can buy their tickets to see the 
 
 ---
 
-# Instalation.
+# Instalation :page_with_curl: .
 ## Note:
 ### The entire project was developed on Linux, so many of the commands will only work on Linux.
 
