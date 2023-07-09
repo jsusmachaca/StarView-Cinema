@@ -3,16 +3,16 @@
 ![preview](images/image.png)
 
 ### Project by:
-* Machaca Hancco Jesus
-* Moreno Villegas Royer
-* Aguilar Vilca Carlos
-* Beltran Torres Briguith
-* Manzano Añamuro Jorge
+* Machaca Hancco Jesus :boy:
+* Moreno Villegas Royer :boy:
+* Aguilar Vilca Carlos :boy:
+* Beltran Torres Briguith :girl:
+* Manzano Añamuro Jorge :boy:
   
 ## Description.
 This project is an online platform where users can buy their tickets to see the most anticipated movie, A platform of combines two web frameworks (Laravel & Flask) to perform interesting things like building REST API.
 
-# Main technologies:
+# Main technologies : 
 
 ## [LARAVEL.](https://laravel.com/)
 **Laravel** was used to build the whole page, thanks to the **MVC** (Model View Controller) pattern, we managed to create **CRUD** operations, view and controllers to build a usable dynamic web page.
