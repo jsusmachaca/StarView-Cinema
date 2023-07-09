@@ -52,7 +52,7 @@ cd StarView\ Cinema
 ```bash
 cd Laravel
 ```
-# Activate DATABASES (Linux).
+## Activate DATABASES (Linux).
 
 **Activate MySql.**
 ```bash
@@ -68,7 +68,7 @@ systemctl start mysql
 systemctl mongodb
 ```
 
-# Migrate and install dependencies.
+## Migrate and install dependencies.
 ***Before migrating the database, create the database beforehand with the following tables to prevent issues.***
 
 first `mariadb -u your_user -p`
