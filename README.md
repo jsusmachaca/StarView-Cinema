@@ -124,7 +124,7 @@ venv/Scripts/activate
 ```bash
 pip -r requirements.txt
 ```
-# Activate all serves.
+# Activate all serves :heavy_check_mark: .
 
 **Activate Laravel project.**
 ```bash
