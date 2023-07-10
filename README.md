@@ -76,7 +76,7 @@ USE CINEMA;
 CREATE TABLE EMPLEADOS (
 	nombres VARCHAR(30),
 	apelllidos VARCHAR(30),
-	id_emp int(5) PRIMARY KEY,
+	id_emp 	INT(5) PRIMARY KEY,
 	dni INT(8),
 	sueldo DECIMAL(5,2),
 	horas_trabajo INT(4),
