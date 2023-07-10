@@ -69,7 +69,7 @@ systemctl mongodb
 
 first `mariadb -u your_user -p`
 
-```mariadb
+```sql
 CREATE DATABASE CINEMA;
 USE CINEMA;
 
