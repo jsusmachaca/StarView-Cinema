@@ -35,6 +35,7 @@ def generateTicket():
           apellido = last_transaction['details']['payer']['name']['surname']
           pelicula = last_transaction['details']['purchase_units'][0]['custom_id']
           boletos = str(last_transaction['details']['purchase_units'][0]['description']).split('quantity: ')
+          hora = last_transaction['details']['create_time']
           pago = last_transaction['details']['purchase_units'][0]['amount']['value']
           datos = {
                '_id': _id,
@@ -43,6 +44,7 @@ def generateTicket():
                'apellido': apellido,
                'pelicula': pelicula,
                'boletos': boletos[1],
+               'hora': hora,
                'pago': pago
           }
           html = htmlTicket(datos)
