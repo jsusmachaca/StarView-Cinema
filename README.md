@@ -122,7 +122,7 @@ venv/Scripts/activate
 
 **Install all dependencies.**
 ```bash
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 # Activate all serves :heavy_check_mark: .
 
