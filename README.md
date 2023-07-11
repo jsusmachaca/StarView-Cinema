@@ -44,7 +44,7 @@ This project is an online platform where users can buy their tickets to see the 
 
 ```bash
 git clone https://github.com/JsasMachaca/StarView-Cinema.git
-cd StarView\ Cinema
+cd StarView-Cinema
 ```
 
 # Laravel Dependencies :heavy_check_mark: :
