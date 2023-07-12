@@ -97,8 +97,9 @@ CREATE TABLE MOVIES (
 ***Migrate databases and install depencencies.***
 
 ```bash
-php artisan migrate
+composer install
 npm install
+php artisan migrate
 ```
 
 # Flask Dependencies :heavy_check_mark: :
@@ -117,7 +118,7 @@ source venv/bin/activate
 **In Windows:**
 ```bash
 python -m venv venv
-venv/Scripts/activate
+venv\Scripts\activate
 ```
 
 **Install all dependencies.**
